@@ -1,5 +1,7 @@
 .jumbotron {
-  background: #532F8C;
+  background-image: url('/tekapo-panorama.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: white;
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
@@ -10,7 +12,7 @@
   .jumbotron p {
     color: #d9ccee;
     max-width: 75%;
-    margin: 1em auto 2em; }
+    margin: 2em auto 2em; }
   .navbar + .jumbotron {
     margin-top: -20px; }
   .jumbotron .lang-logo {
@@ -25,3 +27,13 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+.navbar-inverse{
+      background-color: rgb(27, 55, 84);
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #215388;
+
+  }
+  .container h1{
+    margin-top: 125px;
+  }
