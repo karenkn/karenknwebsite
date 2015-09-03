@@ -10,6 +10,7 @@
     .jumbotron .btn-primary:hover {
       background: #7646c1; }
   .jumbotron p {
+    font-family: helvetica;
     color: #d9ccee;
     max-width: 75%;
     margin: 2em auto 2em; }
