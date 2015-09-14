@@ -1,40 +1,57 @@
+/** 
+ *  main.css 
+ *  Author: Karen N.
+ *  Github @karenkn
+ */
+ 
 .jumbotron {
   background-image: url('/tekapo-panorama.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    font-family: helvetica;
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 2em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
-
-.navbar-inverse{
-      background-color: rgb(27, 55, 84);
-}
-.navbar-inverse .navbar-nav>.active>a{
-    background-color: #215388;
-
+  padding-bottom: 80px; 
   }
-  .container h1{
-    margin-top: 125px;
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7; 
+  }
+.jumbotron .btn-primary:hover {
+  background: #7646c1;
+  }
+.jumbotron p {
+  font-family: helvetica;
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 2em auto 2em;
+  }
+.navbar + .jumbotron {
+  margin-top: -20px;
+  }
+.jumbotron .lang-logo {
+  display: block;
+  background: #B01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white; 
+  }
+.jumbotron .lang-logo img {
+  max-width: 100%;
+  }
+
+.navbar-inverse {
+  background-color: rgb(27, 55, 84);
+  }
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: #215388;
+  }
+.container h1 {
+  margin-top: 125px;
+  }
+@media (min-width: 992px) {
+  .col-md-6 {
+      width: 33%;
+    }
   }
